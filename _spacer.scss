@@ -1,0 +1,334 @@
+$extralarge:100px; 
+$large:70px; 
+$medium:50px; 
+$small:30px; 
+$extrasmall:15px; 
+
+.air-extralarge {
+    background-color: green;
+
+    @media (min-width:1200px)  {
+        padding-top:$extralarge;
+        padding-bottom:$extralarge;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$extralarge - $extralarge/3;
+        padding-bottom:$extralarge - $extralarge/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$extralarge - $extralarge/2;
+        padding-bottom:$extralarge - $extralarge/2;
+    }
+    @media (max-width:767px) {
+        padding-top:$extralarge/4; 
+        padding-bottom:$extralarge/4;
+    }
+}
+
+.air-extralarge_lg {
+    background-color: green;
+
+    @media (min-width:1200px)  {
+        padding-top:$extralarge;
+        padding-bottom:$extralarge;
+    }
+}
+
+.air-extralarge_md {
+    background-color: green;
+
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$extralarge - $extralarge/3;
+        padding-bottom:$extralarge - $extralarge/3;
+    }
+}
+
+.air-extralarge_sm {
+    background-color: green;
+
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$extralarge - $extralarge/2;
+        padding-bottom:$extralarge - $extralarge/2;
+    }
+}
+
+.air-extralarge_xs {
+    background-color: green;
+
+    @media (max-width:767px) {
+        padding-top:$extralarge/4; 
+        padding-bottom:$extralarge/4;
+    }
+}
+
+.air-extralarge_full {
+    background-color: green;
+
+    @media (min-width:1200px)  {
+        padding:$extralarge;
+
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding:$extralarge - $extralarge/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding:$extralarge - $extralarge/2;
+    }
+    @media (max-width:767px) {
+        padding:$extralarge/4; 
+    }
+
+}
+
+.air-extralarge-top {
+    background-color: green;
+
+    @media (min-width:1200px)  {
+        padding-top:$extralarge;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$extralarge - $extralarge/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$extralarge - $extralarge/2;
+    }
+    @media (max-width:767px) {
+        padding-top:$extralarge/4;
+    }
+}
+
+.air-extralarge-bottom {
+    background-color: green;
+
+    @media (min-width:1200px)  {
+        padding-bottom:$extralarge;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-bottom:$extralarge - $extralarge/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-bottom:$extralarge - $extralarge/2;
+    }
+    @media (max-width:767px) {
+        padding-bottom:$extralarge/4;
+    }
+}
+
+.air-large {
+    background-color: red;
+
+    @media (min-width:1200px)  {
+        padding-top:$large;
+        padding-bottom:$large;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$large - $large/3;
+        padding-bottom:$large - $large/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$large - $large/2;
+        padding-bottom:$large - $large/2;
+    }
+    @media (max-width:767px) {
+        padding-top: $large/4;
+        padding-bottom: $large/4;
+    }
+}
+
+.air-large-top {
+    background-color: red;
+
+    @media (min-width:1200px)  {
+        padding-top:$large;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$large - $large/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$large - $large/2;
+    }
+    @media (max-width:767px) {
+        padding-top: $large/4;
+    }
+}
+
+.air-large-bottom {
+    background-color: red;
+
+    @media (min-width:1200px)  {
+        padding-bottom:$large;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-bottom:$large - $large/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-bottom:$large - $large/2;
+    }
+    @media (max-width:767px) {
+        padding-bottom: $large/4;
+    }
+}
+
+.air-medium {
+    background-color: blue;
+
+    @media (min-width:1200px)  {
+        padding-top:$medium;
+        padding-bottom:$medium;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$medium - $medium/3;
+        padding-bottom:$medium - $medium/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$medium - $medium/2;
+        padding-bottom:$medium - $medium/2;
+    }
+    @media (max-width:767px) {
+        padding-top:$medium/4;
+        padding-bottom:$medium/4;
+    }
+}
+
+.air-medium-top {
+    background-color: blue;
+
+    @media (min-width:1200px)  {
+        padding-top:$medium;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$medium - $medium/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$medium - $medium/2;
+    }
+    @media (max-width:767px) {
+        padding-top:$medium/4;
+    }
+}
+
+.air-medium-bottom {
+    background-color: blue;
+
+    @media (min-width:1200px)  {
+        padding-bottom:$medium;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-bottom:$medium - $medium/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-bottom:$medium - $medium/2;
+    }
+    @media (max-width:767px) {
+        padding-bottom:$medium/4;
+    }
+}
+.air-small {
+    background-color: orange;
+
+    @media (min-width:1200px)  {
+        padding-top:$small;
+        padding-bottom:$small;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$small - $small/3;
+        padding-bottom:$small - $small/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$small - $small/2;
+        padding-bottom:$small - $small/2;
+    }
+    @media (max-width:767px) {
+        padding-top:$small/4;
+        padding-bottom:$small/4;
+    }
+}
+
+.air-small-top {
+    background-color: orange;
+
+    @media (min-width:1200px)  {
+        padding-top:$small;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$small - $small/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$small - $small/2;
+    }
+    @media (max-width:767px) {
+        padding-top:$small/4;
+    }
+}
+
+.air-small-bottom {
+    background-color: orange;
+
+    @media (min-width:1200px)  {
+        padding-bottom:$small;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-bottom:$small - $small/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-bottom:$small - $small/2;
+    }
+    @media (max-width:767px) {
+        padding-bottom:$small/4;
+    }
+}
+
+.air-extrasmall {
+    background-color: yellow;
+
+    @media (min-width:1200px)  {
+        padding-top:$extrasmall;
+        padding-bottom:$extrasmall;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$extrasmall - $extrasmall/3;
+        padding-bottom:$extrasmall - $extrasmall/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$extrasmall - $extrasmall/2;
+        padding-bottom:$extrasmall - $extrasmall/2;
+    }
+    @media (max-width:767px) {
+        padding-top:$extrasmall/4;
+        padding-bottom:$extrasmall/4;
+    }
+}
+
+.air-extrasmall-top {
+    background-color: yellow;
+
+    @media (min-width:1200px)  {
+        padding-top:$extrasmall;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-top:$extrasmall - $extrasmall/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-top:$extrasmall - $extrasmall/2;
+    }
+    @media (max-width:767px) {
+        padding-top:$extrasmall/4;
+    }
+}
+
+.air-extrasmall-bottom {
+    background-color: yellow;
+
+    @media (min-width:1200px)  {
+        padding-bottom:$extrasmall;
+    }
+    @media (min-width:992px) and (max-width:1199px) {
+        padding-bottom:$extrasmall - $extrasmall/3;
+    }
+    @media (min-width:768px) and (max-width:991px) {
+        padding-bottom:$extrasmall - $extrasmall/2;
+    }
+    @media (max-width:767px) {
+        padding-bottom:$extrasmall/4;
+    }
+}

@@ -1,0 +1,287 @@
+.air-extralarge {
+  background-color: green; }
+  @media (min-width: 1200px) {
+    .air-extralarge {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-extralarge {
+      padding-top: 66.6666666667px;
+      padding-bottom: 66.6666666667px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-extralarge {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+  @media (max-width: 767px) {
+    .air-extralarge {
+      padding-top: 25px;
+      padding-bottom: 25px; } }
+
+.air-extralarge_lg {
+  background-color: green; }
+  @media (min-width: 1200px) {
+    .air-extralarge_lg {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+
+.air-extralarge_md {
+  background-color: green; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-extralarge_md {
+      padding-top: 66.6666666667px;
+      padding-bottom: 66.6666666667px; } }
+
+.air-extralarge_sm {
+  background-color: green; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-extralarge_sm {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+
+.air-extralarge_xs {
+  background-color: green; }
+  @media (max-width: 767px) {
+    .air-extralarge_xs {
+      padding-top: 25px;
+      padding-bottom: 25px; } }
+
+.air-extralarge_full {
+  background-color: green; }
+  @media (min-width: 1200px) {
+    .air-extralarge_full {
+      padding: 100px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-extralarge_full {
+      padding: 66.6666666667px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-extralarge_full {
+      padding: 50px; } }
+  @media (max-width: 767px) {
+    .air-extralarge_full {
+      padding: 25px; } }
+
+.air-extralarge-top {
+  background-color: green; }
+  @media (min-width: 1200px) {
+    .air-extralarge-top {
+      padding-top: 100px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-extralarge-top {
+      padding-top: 66.6666666667px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-extralarge-top {
+      padding-top: 50px; } }
+  @media (max-width: 767px) {
+    .air-extralarge-top {
+      padding-top: 25px; } }
+
+.air-extralarge-bottom {
+  background-color: green; }
+  @media (min-width: 1200px) {
+    .air-extralarge-bottom {
+      padding-bottom: 100px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-extralarge-bottom {
+      padding-bottom: 66.6666666667px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-extralarge-bottom {
+      padding-bottom: 50px; } }
+  @media (max-width: 767px) {
+    .air-extralarge-bottom {
+      padding-bottom: 25px; } }
+
+.air-large {
+  background-color: red; }
+  @media (min-width: 1200px) {
+    .air-large {
+      padding-top: 70px;
+      padding-bottom: 70px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-large {
+      padding-top: 46.6666666667px;
+      padding-bottom: 46.6666666667px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-large {
+      padding-top: 35px;
+      padding-bottom: 35px; } }
+  @media (max-width: 767px) {
+    .air-large {
+      padding-top: 17.5px;
+      padding-bottom: 17.5px; } }
+
+.air-large-top {
+  background-color: red; }
+  @media (min-width: 1200px) {
+    .air-large-top {
+      padding-top: 70px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-large-top {
+      padding-top: 46.6666666667px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-large-top {
+      padding-top: 35px; } }
+  @media (max-width: 767px) {
+    .air-large-top {
+      padding-top: 17.5px; } }
+
+.air-large-bottom {
+  background-color: red; }
+  @media (min-width: 1200px) {
+    .air-large-bottom {
+      padding-bottom: 70px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-large-bottom {
+      padding-bottom: 46.6666666667px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-large-bottom {
+      padding-bottom: 35px; } }
+  @media (max-width: 767px) {
+    .air-large-bottom {
+      padding-bottom: 17.5px; } }
+
+.air-medium {
+  background-color: blue; }
+  @media (min-width: 1200px) {
+    .air-medium {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-medium {
+      padding-top: 33.3333333333px;
+      padding-bottom: 33.3333333333px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-medium {
+      padding-top: 25px;
+      padding-bottom: 25px; } }
+  @media (max-width: 767px) {
+    .air-medium {
+      padding-top: 12.5px;
+      padding-bottom: 12.5px; } }
+
+.air-medium-top {
+  background-color: blue; }
+  @media (min-width: 1200px) {
+    .air-medium-top {
+      padding-top: 50px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-medium-top {
+      padding-top: 33.3333333333px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-medium-top {
+      padding-top: 25px; } }
+  @media (max-width: 767px) {
+    .air-medium-top {
+      padding-top: 12.5px; } }
+
+.air-medium-bottom {
+  background-color: blue; }
+  @media (min-width: 1200px) {
+    .air-medium-bottom {
+      padding-bottom: 50px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-medium-bottom {
+      padding-bottom: 33.3333333333px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-medium-bottom {
+      padding-bottom: 25px; } }
+  @media (max-width: 767px) {
+    .air-medium-bottom {
+      padding-bottom: 12.5px; } }
+
+.air-small {
+  background-color: orange; }
+  @media (min-width: 1200px) {
+    .air-small {
+      padding-top: 30px;
+      padding-bottom: 30px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-small {
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-small {
+      padding-top: 15px;
+      padding-bottom: 15px; } }
+  @media (max-width: 767px) {
+    .air-small {
+      padding-top: 7.5px;
+      padding-bottom: 7.5px; } }
+
+.air-small-top {
+  background-color: orange; }
+  @media (min-width: 1200px) {
+    .air-small-top {
+      padding-top: 30px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-small-top {
+      padding-top: 20px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-small-top {
+      padding-top: 15px; } }
+  @media (max-width: 767px) {
+    .air-small-top {
+      padding-top: 7.5px; } }
+
+.air-small-bottom {
+  background-color: orange; }
+  @media (min-width: 1200px) {
+    .air-small-bottom {
+      padding-bottom: 30px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-small-bottom {
+      padding-bottom: 20px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-small-bottom {
+      padding-bottom: 15px; } }
+  @media (max-width: 767px) {
+    .air-small-bottom {
+      padding-bottom: 7.5px; } }
+
+.air-extrasmall {
+  background-color: yellow; }
+  @media (min-width: 1200px) {
+    .air-extrasmall {
+      padding-top: 15px;
+      padding-bottom: 15px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-extrasmall {
+      padding-top: 10px;
+      padding-bottom: 10px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-extrasmall {
+      padding-top: 7.5px;
+      padding-bottom: 7.5px; } }
+  @media (max-width: 767px) {
+    .air-extrasmall {
+      padding-top: 3.75px;
+      padding-bottom: 3.75px; } }
+
+.air-extrasmall-top {
+  background-color: yellow; }
+  @media (min-width: 1200px) {
+    .air-extrasmall-top {
+      padding-top: 15px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-extrasmall-top {
+      padding-top: 10px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-extrasmall-top {
+      padding-top: 7.5px; } }
+  @media (max-width: 767px) {
+    .air-extrasmall-top {
+      padding-top: 3.75px; } }
+
+.air-extrasmall-bottom {
+  background-color: yellow; }
+  @media (min-width: 1200px) {
+    .air-extrasmall-bottom {
+      padding-bottom: 15px; } }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .air-extrasmall-bottom {
+      padding-bottom: 10px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .air-extrasmall-bottom {
+      padding-bottom: 7.5px; } }
+  @media (max-width: 767px) {
+    .air-extrasmall-bottom {
+      padding-bottom: 3.75px; } }
