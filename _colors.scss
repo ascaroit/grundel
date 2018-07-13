@@ -15,6 +15,10 @@
     color:$dark;
 }
 
+.dark_light {
+    color:$dark_light;
+}
+
 .bg-accent {
     background-color:$accent;
 }
@@ -28,6 +32,14 @@
 
 .bg-dark {
     background-color:$dark;
+}
+
+.bg-dark_light {
+    background-color:$dark_light;
+}
+
+.bg-light_dark {
+    background-color:$light_dark;
 }
 
 .bg-c1 {

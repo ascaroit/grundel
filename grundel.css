@@ -14,6 +14,9 @@
 .dark {
   color: #323232; }
 
+.dark_light {
+  color: #656565; }
+
 .bg-accent {
   background-color: #428dee; }
 
@@ -25,6 +28,12 @@
 
 .bg-dark {
   background-color: #323232; }
+
+.bg-dark_light {
+  background-color: #656565; }
+
+.bg-light_dark {
+  background-color: #f5f5f5; }
 
 .bg-c1 {
   background-color: #3D315B; }
@@ -969,19 +978,25 @@
   margin-right: 0px !important; }
 
 body {
-  font-size: x-large; }
+  font-size: large; }
 
 @media (min-width: 992px) and (max-width: 1999px) {
   body {
-    font-size: large; } }
+    font-size: medium;
+    transition: .9s; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   body {
-    font-size: medium; } }
+    font-size: small;
+    transition: .9s; } }
 
 @media (max-width: 767px) {
   body {
-    font-size: small; } }
+    font-size: small;
+    transition: .9s; } }
+
+.bold {
+  font-weight: bold; }
 
 .title {
   font-family: "Montserrat", sans-serif;
@@ -1031,8 +1046,8 @@ body {
 .btn {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  transition: .5s;
-  text-align: center; }
+  text-align: center;
+  border: none; }
   .btn--block {
     display: block; }
   .btn--inline {
@@ -1043,16 +1058,17 @@ body {
   .btn--rounded {
     border-radius: 50px; }
   .btn--xl {
-    padding: 10px 25px;
     font-size: 1.125em; }
   .btn--default {
-    padding: 10px 25px;
-    font-size: 0.85em; }
+    padding: 0.938em 1.125em;
+    font-size: 1em; }
+    .btn--default:hover {
+      color: #ffffff !important; }
     .btn--default_accent {
       background-color: #428dee;
       color: #ffffff; }
       .btn--default_accent:hover {
-        background-color: #115ab9; }
+        background-color: #115ab9 !important; }
     .btn--default_alt {
       background-color: #df563e;
       color: #ffffff; }
@@ -1092,8 +1108,8 @@ body {
       padding: 10px 25px;
       font-size: 0.7em; }
   .btn--outline {
-    padding: 10px 25px;
-    font-size: 0.85em;
+    padding: 0.938em 1.125em;
+    font-size: 1em;
     background-color: transparent !important;
     border: 2px solid; }
     .btn--outline_accent {
@@ -1116,7 +1132,7 @@ body {
       .btn--outline_light:hover {
         border-color: #ffffff;
         background-color: #ffffff !important;
-        color: #ffffff; }
+        color: #428dee; }
     .btn--outline_c1 {
       border-color: #3D315B;
       color: #3D315B; }

@@ -1,14 +1,18 @@
 body {
-    font-size: x-large;
+    font-size: large;
 }
 @media (min-width: 992px) and (max-width: 1999px) {
-    body { font-size: large; }
+    body { font-size: medium; transition: .9s;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    body { font-size: medium; }
+    body { font-size: small; transition: .9s;}
 }
 @media (max-width:767px) {
-    body { font-size: small; }
+    body { font-size: small; transition: .9s;}
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .title {
