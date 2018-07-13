@@ -3,10 +3,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
 /* COLORS */
 .accent {
-  color: #428dee; }
+  color: #4229ee; }
 
 .alt {
-  color: #df563e; }
+  color: #6eefa7; }
 
 .light {
   color: #ffffff; }
@@ -18,10 +18,10 @@
   color: #656565; }
 
 .bg-accent {
-  background-color: #428dee; }
+  background-color: #4229ee; }
 
 .bg-alt {
-  background-color: #df563e; }
+  background-color: #6eefa7; }
 
 .bg-light {
   background-color: #ffffff; }
@@ -1027,6 +1027,15 @@ body {
   .overtitle--xs {
     font-size: 1.125em; }
 
+.p--l {
+  font-size: 20px; }
+
+.p--m {
+  font-size: 16px; }
+
+.p--s {
+  font-size: 12px; }
+
 .link--xl {
   font-size: 4.25em; }
 
@@ -1065,18 +1074,18 @@ body {
     .btn--default:hover {
       color: #ffffff !important; }
     .btn--default_accent {
-      background-color: #428dee;
+      background-color: #4229ee;
       color: #ffffff; }
       .btn--default_accent:hover {
-        background-color: #115ab9 !important; }
+        background-color: #200da4 !important; }
     .btn--default_alt {
-      background-color: #df563e;
+      background-color: #6eefa7;
       color: #ffffff; }
       .btn--default_alt:hover {
-        background-color: #9d2e1a; }
+        background-color: #19de70; }
     .btn--default_light {
       background-color: #ffffff;
-      color: #428dee; }
+      color: #4229ee; }
       .btn--default_light:hover {
         background-color: #e6e5e5; }
     .btn--default_c1 {
@@ -1113,18 +1122,18 @@ body {
     background-color: transparent !important;
     border: 2px solid; }
     .btn--outline_accent {
-      border-color: #428dee;
-      color: #428dee; }
+      border-color: #4229ee;
+      color: #4229ee; }
       .btn--outline_accent:hover {
-        border-color: #428dee;
-        background-color: #428dee !important;
+        border-color: #4229ee;
+        background-color: #4229ee !important;
         color: #ffffff; }
     .btn--outline_alt {
-      border-color: #df563e;
-      color: #df563e; }
+      border-color: #6eefa7;
+      color: #6eefa7; }
       .btn--outline_alt:hover {
-        border-color: #df563e;
-        background-color: #df563e !important;
+        border-color: #6eefa7;
+        background-color: #6eefa7 !important;
         color: #ffffff; }
     .btn--outline_light {
       border-color: #ffffff;
@@ -1132,7 +1141,7 @@ body {
       .btn--outline_light:hover {
         border-color: #ffffff;
         background-color: #ffffff !important;
-        color: #428dee; }
+        color: #4229ee; }
     .btn--outline_c1 {
       border-color: #3D315B;
       color: #3D315B; }
@@ -1170,10 +1179,10 @@ body {
         color: #ffffff; }
 
 .gradient--accent-to-alt {
-  background: linear-gradient(#428dee, #df563e); }
+  background: linear-gradient(#4229ee, #6eefa7); }
 
 .gradient--alt-to-accent {
-  background: linear-gradient(#df563e, #428dee); }
+  background: linear-gradient(#6eefa7, #4229ee); }
 
 .gradient--c1-to-c2 {
   background: linear-gradient(#3D315B, #CE5374); }
@@ -1186,6 +1195,22 @@ body {
 
 .gradient--c1-to-c5 {
   background: linear-gradient(#3D315B, #A2D3C2); }
+
+.overlay--accent_accent_to_alfa {
+  background: linear-gradient(#4229ee, rgba(66, 41, 238, 0));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.overlay--accent_alfa_to_accent {
+  background: linear-gradient(rgba(66, 41, 238, 0), #4229ee);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
 
 .grundel-container {
   display: grid;

@@ -23,8 +23,22 @@
 }
 .overlay {
     &--accent {
-        &_to-alt {
-
+        &_accent_to_alfa {
+            @include linear-gradient($accent,rgba($accent,0) );
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+             
+        }
+        &_alfa_to_accent {
+            @include linear-gradient(rgba($accent,0), $accent );
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
         }
         &_full {
 
