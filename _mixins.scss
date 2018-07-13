@@ -1,0 +1,12 @@
+/* MIXINS */
+.shadow {
+    &--light {}
+    &--dark {}
+}
+
+
+
+@mixin linear-gradient($first, $second) {
+    background: linear-gradient($first, $second);
+}
+

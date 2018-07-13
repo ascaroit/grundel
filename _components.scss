@@ -1,0 +1,214 @@
+/* COMPONENTS */
+
+.btn {
+    font-family:$font-family-title;
+    text-decoration:none;
+    transition:.5s;
+    text-align:center;
+    &--block {
+        display: block;
+    }
+
+    &--inline {
+        display: inline-block;
+
+        @media (max-width:991px) {
+            display: block;
+        }
+
+    }
+    &--rounded {
+        border-radius: 50px;
+    }
+    &--xl {
+        padding: 10px 25px;
+        font-size: $btn-large-fontsize;
+    }
+    &--default {
+        padding: 10px 25px;
+        font-size: $btn-default-fontsize;
+
+        &_accent {
+            background-color: $accent;
+            color: $light;
+
+            &:hover {
+                background-color: $accent_dark;
+            }
+        }
+
+        &_alt {
+            background-color: $alt;
+            color: $light;
+
+            &:hover {
+                background-color: $alt_dark;
+            }
+        }
+        &_light {
+            background-color: $light;
+            color: $accent;
+
+            &:hover {
+                background-color: darken($light,10%);
+            }
+        }
+        &_c1 {
+            background-color: $color_1;
+            color: $light;
+
+            &:hover {
+                background-color: darken($color_1,10%);
+            }
+        }
+        &_c2 {
+            background-color: $color_2;
+            color: $light;
+
+            &:hover {
+                background-color: darken($color_2,10%);
+            }
+        }
+        &_c3 {
+            background-color: $color_3;
+            color: $light;
+
+            &:hover {
+                background-color: darken($color_3,10%);
+            }
+        }
+        &_c4 {
+            background-color: $color_4;
+            color: $light;
+
+            &:hover {
+                background-color: darken($color_4,10%);
+            }
+        }
+        &_c5 {
+            background-color: $color_5;
+            color: $light;
+
+            &:hover {
+                background-color: darken($color_5,10%);
+            }
+        }
+
+        &--s {
+            padding: 10px 25px;
+            font-size: $btn-small-fontsize;
+        }
+
+
+    }
+
+    &--outline {
+        padding: 10px 25px;
+        font-size: $btn-default-fontsize;
+        background-color:transparent !important;
+        border:2px solid;
+
+        &_accent {
+            border-color: $accent;
+            color:  $accent;
+
+            &:hover {
+                border-color: $accent;
+                background-color: $accent !important;
+                color: $light;
+            }
+        }
+
+        &_alt {
+            border-color: $alt;
+            color: $alt;
+
+            &:hover {
+                border-color: $alt;
+                background-color: $alt !important;
+                color: $light;
+            }
+        }
+        &_light {
+            border-color: $light;
+            color: $light;
+
+            &:hover {
+                border-color: $light;
+                background-color: $light !important;
+                color: $light;
+            }
+        }
+        &_c1 {
+            border-color: $color_1;
+            color: $color_1;
+
+            &:hover {
+                border-color: $color_1;
+                background-color: $color_1 !important;
+                color: $light;
+            }
+        }
+        &_c2 {
+            border-color: $color_2;
+            color: $color_2;
+
+            &:hover {
+                border-color: $color_2;
+                background-color: $color_2 !important;
+                color: $light;
+
+            }
+        }
+        &_c3 {
+            border-color: $color_3;
+            color: $color_3;
+
+            &:hover {
+                border-color: $color_3;
+                background-color: $color_3 !important;
+                color: $light;
+
+            }
+        }
+        &_c4 {
+            border-color: $color_4;
+            color: $color_4;
+
+            &:hover {
+                border-color: $color_4;
+                background-color: $color_4 !important;
+                color: $light;
+
+            }
+        }
+        &_c5 {
+            border-color: $color_5;
+            color: $color_5;
+
+            &:hover {
+                border-color: $color_5;
+                background-color: $color_5 !important;
+                color: $light;
+
+            }
+        }
+    }
+}
+
+form {
+    input {
+        &--text {
+
+        }
+        &--text_area {
+
+        }
+        &--select {
+
+        }
+        &--checkbox {
+
+        }
+    }
+}

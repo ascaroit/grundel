@@ -1,0 +1,31 @@
+.grundel-container {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: auto auto auto;
+}
+
+
+.wrapper {
+    flex-wrap:wrap;
+    display: flex;
+
+    &--flex_center-top {
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &--flex_center-bottom {
+        justify-content: center;
+        align-items: flex-end;
+    }
+    &--flex_center-center {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.flex-unit {
+    flex:1;
+
+
+}

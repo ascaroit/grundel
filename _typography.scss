@@ -1,0 +1,87 @@
+body {
+    font-size: x-large;
+}
+@media (min-width: 992px) and (max-width: 1999px) {
+    body { font-size: large; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    body { font-size: medium; }
+}
+@media (max-width:767px) {
+    body { font-size: small; }
+}
+
+.title {
+    font-family:$font-family-title;
+    margin: 0;
+
+    &--xl {
+        font-size:$title-xl-fontsize;
+    }
+    &--l {
+        font-size:$title-l-fontsize;
+
+    }
+    &--m {
+        font-size:$title-m-fontsize;
+
+    }
+    &--s {
+        font-size:$title-s-fontsize;
+
+    }
+    &--xs {
+        font-size:$title-xs-fontsize;
+
+    }
+}
+
+.overtitle {
+    font-family:$font-family-title;
+    font-weight:100;
+    letter-spacing:5;
+
+
+    &--xl {
+        font-size:$title-xl-fontsize;
+    }
+    &--l {
+        font-size:$title-l-fontsize;
+
+    }
+    &--m {
+        font-size:$title-m-fontsize;
+
+    }
+    &--s {
+        font-size:$title-s-fontsize;
+
+    }
+    &--xs {
+        font-size:$title-xs-fontsize;
+
+    }
+}
+
+.link {
+    &--xl {
+        font-size:$title-xl-fontsize;
+    }
+    &--l {
+        font-size:$title-l-fontsize;
+
+    }
+    &--m {
+        font-size:$title-m-fontsize;
+
+    }
+    &--s {
+        font-size:$title-s-fontsize;
+
+    }
+    &--xs {
+        font-size:$title-xs-fontsize;
+
+    }
+}
+

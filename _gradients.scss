@@ -1,0 +1,66 @@
+.gradient {
+
+    &--accent-to-alt {
+        @include linear-gradient($accent, $alt);
+    }
+    &--alt-to-accent {
+        @include linear-gradient($alt, $accent);
+    }
+    &--c1-to-c2 {
+        @include linear-gradient($color_1, $color_2);
+    }
+    &--c1-to-c3 {
+        @include linear-gradient($color_1, $color_3);
+
+    }
+    &--c1-to-c4 {
+        @include linear-gradient($color_1, $color_4);
+    }
+    &--c1-to-c5 {
+        @include linear-gradient($color_1, $color_5);
+
+    }
+}
+.overlay {
+    &--accent {
+        &_to-alt {
+
+        }
+        &_full {
+
+        }
+        &_top-alpha {
+
+        }
+        &_bottom-alpha {
+
+        }
+        &_right-alpha {
+
+        }
+        &_left-alpha {
+
+        }
+    }
+    &--alt {
+
+        &_to-accent {
+
+        }
+        &_full {
+
+        }
+        &_top-alpha {
+
+        }
+        &_bottom-alpha {
+
+        }
+        &_right-alpha {
+
+        }
+        &_left-alpha {
+
+        }
+    }
+}

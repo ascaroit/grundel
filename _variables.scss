@@ -1,0 +1,45 @@
+/* VARIABLES */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css');
+
+$extralarge:100px !default; 
+$large:70px !default; 
+$medium:50px !default;
+$small:30px !default;
+$extrasmall:15px !default; 
+
+$title-xl-fontsize:4.25em !default;
+$title-l-fontsize:3.375em !default;
+$title-m-fontsize:2em !default;
+$title-s-fontsize:1.5em !default;
+$title-xs-fontsize:1.125em !default;
+
+$btn-default-fontsize: 0.85em;
+$btn-large-fontsize: 1.125em;
+$btn-small-fontsize: 0.7em;
+
+$font-family-title: 'Montserrat', sans-serif;
+$font-family-body: 'Montserrat', sans-serif;
+
+$accent:#428dee !default;
+$alt:#df563e !default;
+$light:#ffffff !default;
+$dark:#323232 !default;
+
+$color_1:#3D315B;
+$color_2:#CE5374;
+$color_3:#d29840;
+$color_4:#FFDF64;
+$color_5:#A2D3C2;
+
+$accent_light:lighter($accent,20%);
+$accent_dark:darken($accent,20%);
+
+$alt_light:lighter($alt,20%);
+$alt_dark:darken($alt,20%);
+
+$dark_light:lighter($dark,20%);
+$dark_black:darken($dark,20%);
+
+
