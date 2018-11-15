@@ -27,7 +27,7 @@
         font-size: $btn-large-fontsize;
     }
     &--default {
-        padding: 0.938em 1.125em;
+        padding: 0.750em 1.875em;
         font-size: $btn-default-fontsize;
 
         &:hover {
@@ -110,7 +110,7 @@
     }
 
     &--outline {
-        padding: 0.938em 1.125em;
+        padding: 0.750em 1.875em;
         font-size: $btn-default-fontsize;
         background-color:transparent !important;
         border:2px solid;
